@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "dotenvx run -- node server.js",
+    "dev": "dotenvx run -- nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Muhammad Asadullah",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.48.3",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
