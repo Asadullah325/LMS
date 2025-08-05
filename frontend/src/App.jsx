@@ -1,8 +1,11 @@
 import React from 'react'
+import ChatWidget from './components/custom/ChatApp'
 
 const App = () => {
   return (
-    <div className='text-3xl font-bold'>App</div>
+    <div>
+      <ChatWidget />
+    </div>
   )
 }
 
